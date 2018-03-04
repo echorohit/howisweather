@@ -1,0 +1,26 @@
+{
+  "name": "weather-supervisor",
+  "version": "1.0.0",
+  "description": "Supervisor to get weather updates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup index.js --o supervisor-bundle.js --f cjs",
+    "start": "rollup index.js --o supervisor-bundle.js --f cjs && node supervisor-bundle.js"
+  },
+  "keywords": [
+    "weather",
+    "supervisor"
+  ],
+  "author": "echorohit",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "bunyan": "^1.8.12",
+    "mysql": "^2.15.0",
+    "node-schedule": "^1.3.0",
+    "tortoise": "^1.0.1"
+  }
+}

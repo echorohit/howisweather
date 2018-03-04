@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+     "conditions": 1
+    }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Delhi, India",
+		"city":"Delhi",
+		"state":"DL",
+		"state_name":"India",
+		"country":"IN",
+		"country_iso3166":"IN",
+		"zip":"00000",
+		"magic":"56",
+		"wmo":"42182",
+		"latitude":"28.65999985",
+		"longitude":"77.23000336",
+		"elevation":"213.1"
+		},
+		"observation_location": {
+		"full":"Golf Links, New Delhi, DELHI",
+		"city":"Golf Links, New Delhi",
+		"state":"DELHI",
+		"country":"IN",
+		"country_iso3166":"IN",
+		"latitude":"28.599567",
+		"longitude":"77.230751",
+		"elevation":"699 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"IDELHINE9",
+		"observation_time":"Last Updated on March 3, 4:22 PM IST",
+		"observation_time_rfc822":"Sat, 03 Mar 2018 16:22:26 +0530",
+		"observation_epoch":"1520074346",
+		"local_time_rfc822":"Sat, 03 Mar 2018 16:22:32 +0530",
+		"local_epoch":"1520074352",
+		"local_tz_short":"IST",
+		"local_tz_long":"Asia/Kolkata",
+		"local_tz_offset":"+0530",
+		"weather":"Haze",
+		"temperature_string":"89.6 F (32.0 C)",
+		"temp_f":89.6,
+		"temp_c":32.0,
+		"relative_humidity":"21%",
+		"wind_string":"From the West at 5.1 MPH Gusting to 7.4 MPH",
+		"wind_dir":"West",
+		"wind_degrees":271,
+		"wind_mph":5.1,
+		"wind_gust_mph":"7.4",
+		"wind_kph":8.2,
+		"wind_gust_kph":"11.9",
+		"pressure_mb":"1005",
+		"pressure_in":"29.68",
+		"pressure_trend":"",
+		"dewpoint_string":"45 F (7 C)",
+		"dewpoint_f":45,
+		"dewpoint_c":7,
+		"heat_index_string":"86 F (30 C)",
+		"heat_index_f":86,
+		"heat_index_c":30,
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"86 F (30 C)",
+		"feelslike_f":"86",
+		"feelslike_c":"30",
+		"visibility_mi":"2.0",
+		"visibility_km":"4.0",
+		"solarradiation":"253",
+		"UV":"1.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"hazy",
+		"icon_url":"http://icons.wxug.com/i/c/k/hazy.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/42182.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IDELHINE9",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=28.599567,77.230751",
+		"nowcast":""
+	}
+}

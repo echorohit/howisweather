@@ -1,0 +1,24 @@
+{
+  "name": "weather-workers",
+  "version": "1.0.0",
+  "description": "Workers to read weather changes and store.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup index.js --o worker-bundle.js --f cjs",
+    "start": "rollup index.js --o worker-bundle.js --f cjs && node worker-bundle.js",
+    "in": "rollup in_worker.js --o in_worker-bundle.js --f cjs && node in_worker-bundle.js"
+  },
+  "keywords": [
+    "workers"
+  ],
+  "author": "echorohit",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "bunyan": "^1.8.12",
+    "mysql": "^2.15.0"
+  }
+}

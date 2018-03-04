@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+      "full":"Delhi, India",
+      "city":"Delhi",
+      "state":"DL",
+      "state_name":"India",
+      "country":"IN",
+      "country_iso3166":"IN",
+      "zip":"00000",
+      "magic":"56",
+      "wmo":"42182",
+      "latitude":"28.65999985",
+      "longitude":"77.23000336",
+      "elevation":"213.1"
+		},
+		"observation_location": {
+		"full":"SOMA, San Francisco, California",
+		"city":"SOMA, San Francisco",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"37.778488",
+		"longitude":"-122.408005",
+		"elevation":"23 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCASANFR131",
+		"observation_time":"Last Updated on March 3, 2:51 AM PST",
+		"observation_time_rfc822":"Sat, 03 Mar 2018 02:51:32 -0800",
+		"observation_epoch":"1520074292",
+		"local_time_rfc822":"Sat, 03 Mar 2018 02:51:35 -0800",
+		"local_epoch":"1520074295",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"45.6 F (7.6 C)",
+		"temp_f":46.6,
+		"temp_c":7.8,
+		"relative_humidity":"78%",
+		"wind_string":"From the SSW at 2.0 MPH Gusting to 6.0 MPH",
+		"wind_dir":"SSW",
+		"wind_degrees":202,
+		"wind_mph":2.0,
+		"wind_gust_mph":"6.0",
+		"wind_kph":3.2,
+		"wind_gust_kph":"9.7",
+		"pressure_mb":"1015",
+		"pressure_in":"29.97",
+		"pressure_trend":"+",
+		"dewpoint_string":"39 F (4 C)",
+		"dewpoint_f":39,
+		"dewpoint_c":4,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"46 F (8 C)",
+		"windchill_f":"46",
+		"windchill_c":"8",
+		"feelslike_string":"46 F (8 C)",
+		"feelslike_f":"46",
+		"feelslike_c":"8",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"0",
+		"UV":"0.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.10 in (3 mm)",
+		"precip_today_in":"0.10",
+		"precip_today_metric":"3",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/San_Francisco.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCASANFR131",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.778488,-122.408005",
+		"nowcast":""
+	}
+}
