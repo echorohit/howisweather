@@ -7,7 +7,7 @@ import {readQueue} from './subscriber'
 function saveWeather(data) {
   let insertQuery = `INSERT INTO weather  
                     (country, city, temp_c, temp_f, humidity) 
-                    values('INDIA', '${data.display_location.city.toUpperCase()}', ${data.temp_c}, ${data.temp_f}, ${parseInt(data.relative_humidity)}) 
+                    values('USA', '${data.display_location.city.toUpperCase()}', ${data.temp_c}, ${data.temp_f}, ${parseInt(data.relative_humidity)}) 
                     ON DUPLICATE KEY UPDATE
                     last_read_time = read_time,
                     last_temp_c = temp_c,
@@ -25,7 +25,7 @@ function saveWeather(data) {
 }
 
 async function main() {
-  await readQueue('IN', saveWeather)
+  await readQueue('US', saveWeather)
 } 
 
 
