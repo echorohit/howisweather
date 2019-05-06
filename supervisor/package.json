@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup index.js --o supervisor-bundle.js --f cjs",
-    "start": "rollup index.js --o supervisor-bundle.js --f cjs && node supervisor-bundle.js"
+    "start": "rollup index.js --o supervisor-bundle.js --f cjs && node supervisor-bundle.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "weather",
@@ -21,6 +23,8 @@
     "bunyan": "^1.8.12",
     "mysql": "^2.15.0",
     "node-schedule": "^1.3.0",
-    "tortoise": "^1.0.1"
-  }
+    "tortoise": "^1.0.1",
+    "snyk": "^1.161.1"
+  },
+  "snyk": true
 }
